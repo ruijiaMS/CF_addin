@@ -1,0 +1,173 @@
+{
+    "functions": [
+        {
+            "description": "Adds two numbers.",
+            "id": "ADD",
+            "name": "ADD",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Adds two numbers and wait 10s return.",
+            "id": "ADDANDWAIT10S",
+            "name": "ADDANDWAIT10S",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Adds two numbers and wait 2s return.",
+            "id": "ADDANDWAIT2S",
+            "name": "ADDANDWAIT2S",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Adds two numbers and wait 3s return.",
+            "id": "ADDANDWAIT3S",
+            "name": "ADDANDWAIT3S",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Adds two numbers and wait 5s return.",
+            "id": "ADDANDWAIT5S",
+            "name": "ADDANDWAIT5S",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Displays the current time once a second.",
+            "id": "CLOCK",
+            "name": "CLOCK",
+            "options": {
+                "stream": true
+            },
+            "parameters": [],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Increments a value once a second.",
+            "id": "INCREMENT",
+            "name": "INCREMENT",
+            "options": {
+                "stream": true
+            },
+            "parameters": [
+                {
+                    "description": "Amount to increment",
+                    "name": "incrementBy",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Writes a message to console.log().",
+            "id": "LOG",
+            "name": "LOG",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Calculates the volume of a sphere.",
+            "id": "JIARUITESTCF2",
+            "name": "JIARUITESTCF2",
+            "parameters": [],
+            "result": {}
+        },
+        {
+            "description": "Take a number as the input value and return a formatted number value as the output.",
+            "id": "CREATEFORMATTEDNUMBER",
+            "name": "CREATEFORMATTEDNUMBER",
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "number"
+                },
+                {
+                    "description": "(e.g. \"0.00%\")",
+                    "name": "format",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}
